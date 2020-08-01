@@ -28,3 +28,9 @@ Matrix.defaultProps = {
     return (new Array(10).fill(defRow))
   })()
 }
+Matrix.dafaultValues = {
+  values: (() =>{
+    const row = ['#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00']
+    return (new Array(10).fill(row))
+  })()
+}
